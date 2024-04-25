@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+main {
+    /*padding: 20px;*/
+}
+h2 {
+    color: #333;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+	
+.txt {
+	font-size: 20px;
+	font-family: Lucida Console;
+	opacity: 100%;
+}
+	
+.img {
+	width: 400px;
+}
+
+.bas {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    color: #0c075e;
+}
+
+.bas:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+#sttxt {
+    background-image: url(kreml.jpg);
+    height: 450px;
+}
+
+#ndtxt {
+    background-image: url(mos-1.jpg);
+    height: 450px;
+}
+
+#thtxt {
+    background-image: url(mos.jpg);
+    height: 450px;
+}
+
+#tohtxt {
+    background-image: url(mos3.jpg);
+    height: 800px;
+}
+.osn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*height: 450px;*/
+    width: 97.5%;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    opacity: 0.2;
+    transition: transform 1s ease;
+}
+
+
+.osn:hover {
+    opacity: 1;
+    transform: scale(1.005);
+}
+
+.osntxt {
+    max-width: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	opacity: 100%;
+}
+
+.osntxt h1 {
+    font-family: Lucida Console;
+    font-size: 20px;
+    color: #333;
+}
+
+.osntxt p {
+    font-family: Lucida Console;
+    font-size: 30px;
+    color: #333;
+}
+
+#zglv {
+    color: #fff;
+    text-decoration: none;
+}
+
+#tainc {
+    background-image: url(tainc2.jpg);
+    background-size: 100%;
+    opacity: 1;
+	height: 100%;
+}
+
+#troic {
+    background-image: url(troic2.jpg);
+    background-size: 100%;
+    opacity: 1;
+    height: 100%;
+}
+
+#nabat {
+    background-image: url(nabat3.jpg);
+    background-size: 100%;
+    opacity: 1;
+    height: 100%;
+}
+
+#spas {
+    background-image: url(spas.jpg);
+    background-size: 83%;
+    opacity: 1;
+    height: 100%;
+}
+
+
+
+.bashntxtsl {
+	font-size: 45px;
+	margin-left: 40px;
+	margin-right: 40%;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: center;
+	
+}
+
+.osnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 450px;*/
+    width: 97.5%;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    opacity: 0.2;
+    transition: transform 1s ease;
+}
+
+.skip {
+    background-color: blue;
+}
